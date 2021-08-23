@@ -1,0 +1,14 @@
+Rank,ISP,Speed,Previous Month Speed,Change,Type
+1,Comcast,4.1,4.15,,Cable
+2,Cox,4.03,4.07,,Cable
+3,Spectrum,4.0,4.04,,Cable
+4,AT&T - U-verse,3.95,3.94,3,Fiber
+5,Verizon - FiOS,3.93,4.02,-1,Fiber
+6,Optimum,3.91,3.99,-1,Cable
+7,Mediacom,3.89,3.95,-1,Cable
+8,Suddenlink,3.83,3.87,,Cable
+9,Frontier,3.39,3.4,,"Fiber, DSL"
+10,CenturyLink,3.38,3.4,,"Fiber, DSL"
+11,Windstream,3.33,3.35,,DSL
+12,Verizon - DSL,3.15,3.18,,DSL
+13,AT&T - DSL,2.87,2.92,,DSL

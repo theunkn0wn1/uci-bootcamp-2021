@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "uci_bootcamp_2021"
+version = "0.1.0"
+description = ""
+authors = ["Joshua Salzedo <joshuasalzedo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+numpy = "^1.21.2"
+pandas = "^1.3.2"
+requests = "^2.26.0"
+beautifulsoup4 = "^4.9.3"
+jupyter = "^1.0.0"
+matplotlib = "^3.4.3"
+seaborn = "^0.11.2"
+pendulum = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

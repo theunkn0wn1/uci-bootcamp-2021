@@ -1,0 +1,6 @@
+[book]
+authors = ["Joshua Salzedo"]
+language = "en"
+multilingual = false
+src = "src"
+title = "UCI Bootcamp 2021"
