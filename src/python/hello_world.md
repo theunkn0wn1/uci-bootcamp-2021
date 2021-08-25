@@ -3,9 +3,8 @@
 The common first step in most programming languages is to render the phrase `hello, world!` to the
 standard output, so let's do that!
 
-Many compiled languages require creating source files before a single line of code can be written.
-
-This isn't strictly the case for Python, which comes with something called a `REPL`.
+Many compiled languages require creating source files before a single line of code can be written. This
+isn't strictly the case for Python, which comes with something called a `REPL`.
 > REPL: Read, Execute, Print, Loop.
 
 This REPL basically acts as a shell, allowing the user to execute small amounts of code without having
