@@ -10,7 +10,7 @@
     - [A primer on syntax]()
         - ["Hello world"](python/hello_world.md)
         - [Basic math operators](python/basic_math_operators.md)
-        - [Variables]()
+        - [Variables](python/variables.md)
         - [For loops]()
         - [While loops]()
         - [Functions](python/functions.md)

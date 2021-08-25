@@ -69,8 +69,6 @@ The last of the core math operators we will introduce at this point is the modul
 
 print(15 % 6)
 # 3
-print(15 // 6)
-# 2
 ```
 
 > Note: The modulus of `i % j` will have the same sign as `j`.
