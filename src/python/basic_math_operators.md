@@ -72,3 +72,5 @@ print(15 % 6)
 print(15 // 6)
 # 2
 ```
+
+> Note: The modulus of `i % j` will have the same sign as `j`.
