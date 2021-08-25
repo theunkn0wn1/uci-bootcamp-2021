@@ -38,8 +38,8 @@ Hello, world!
 
 To better understand what is done, let's unpack the above line of code:
 
-- `print` is builtin function, which accepts one `str`ing argument, and renders it to the standard
-  output.
+- `print` is builtin function, which accepts one `argument`, and renders that argument it to the
+  standard output.
 
 - `"Hello, world!"` is a `string literal`.
     - A "string" in Computer Science is text, a collection of characters.
