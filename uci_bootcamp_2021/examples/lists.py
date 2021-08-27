@@ -55,3 +55,20 @@ data2 = [7, 8, 9, 10]
 data.extend(data2)
 print(data)
 # [72, 8, 3, 4, 7, 8, 9, 10]
+
+
+# Taking the minimum of a list
+print(min(data))
+# 3
+
+# Taking the maximum of a list
+print(max(data))
+# 72
+
+# Taking the sum of a list
+print(sum(data))
+# 121
+
+# Taking the geometric mean of a list
+print(sum(data) / len(data))
+# 15.125

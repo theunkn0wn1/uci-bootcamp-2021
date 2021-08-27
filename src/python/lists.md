@@ -30,7 +30,7 @@ other [`Iterable`](https://docs.python.org/3/library/collections.abc.html#collec
 One common `iterable` is the
 builtin [`range`](https://docs.python.org/3/library/functions.html#func-range)).
 
-`range` is a ['Sequence'](https://docs.python.org/3/library/stdtypes.html#typesseq) that produces
+`range` is a [`Sequence`](https://docs.python.org/3/library/stdtypes.html#typesseq) that produces
 integers in the domain `[start, stop)`, every `step` values (default 1).
 
 ```python
@@ -38,14 +38,27 @@ integers in the domain `[start, stop)`, every `step` values (default 1).
 ```
 
 ## Sorting lists
+
 Lists can also be sorted, provided their elements are sortable.
+
 ```python
 {{  #include ../../uci_bootcamp_2021/examples/lists.py:20:31 }}
 ```
 
 ## Mutating the contents of a list
+
 The elements of a list can be changed by adding, removing, or by changing existing items.
 
 ```python
 {{  #include ../../uci_bootcamp_2021/examples/lists.py:34:58 }}
+```
+
+# Min, Max, Sum.
+
+The builtin functions [`min`](https://docs.python.org/3/library/functions.html#min)
+, [`max`](https://docs.python.org/3/library/functions.html#max)
+, [`sum`](https://docs.python.org/3/library/functions.html#sum) can work with lists.
+
+```python
+{{  #include ../../uci_bootcamp_2021/examples/lists.py:60:75 }}
 ```
