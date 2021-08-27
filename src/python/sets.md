@@ -42,21 +42,20 @@ As stated above, set operations can be done against Python's `set`.
 # Union
 
 ```python
-{{  #include ../../uci_bootcamp_2021/examples/sets.py:41:42 }}
+{{  #include ../../uci_bootcamp_2021/examples/sets.py:40:49 }}
 ```
 
 # Intersection
 
 ```python
-{{  #include ../../uci_bootcamp_2021/examples/sets.py:43:44 }}
+{{  #include ../../uci_bootcamp_2021/examples/sets.py:50:55 }}
 ```
 
 # Difference
-
-Note: the difference between two sets is not associative. A-B != B-A
+> Note: the difference between two sets is not associative. A-B != B-A
 
 ```python
-{{  #include ../../uci_bootcamp_2021/examples/sets.py:46:55 }}
+{{  #include ../../uci_bootcamp_2021/examples/sets.py:57:65 }}
 ```
 
 # Further Reading

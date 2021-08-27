@@ -34,6 +34,7 @@ print(len(data))
 # and demonstrate that duplicate items are not in the resulting set.
 print(data)
 # {1, 2, 3, 4, 7}
+
 print("========")
 
 a = {1, 2, 3}
@@ -47,6 +48,10 @@ print(b | a)
 # {1, 2, 3, 4, 5}
 
 print(a.intersection(b))
+# is the same as
+print(a & b)
+# and its associative
+print(b & a)
 # {3}
 
 print(a.difference(b))
