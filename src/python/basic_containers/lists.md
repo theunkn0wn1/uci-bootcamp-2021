@@ -4,7 +4,7 @@ Python has a number of builtin container types, the most common of which is the 
 
 A `list` is an ordered, resizable, mutable, heterogeneous container.
 
-It is also a precursor to `Numpy`'s `ndarray`. More on that [later.](the_ndarray.md)
+It is also a precursor to `Numpy`'s `ndarray`. More on that [later.](../the_ndarray.md)
 
 - It retains the order of items put into it, unless explicitly sorted
 - Additional items can be inserted into, or items removed from, the collection at will.
@@ -19,7 +19,7 @@ ordered sequence.
 Lists are denoted by `[]` square brackets, and may contain zero-or-more elements
 
 ```python
-{{  #include ../../uci_bootcamp_2021/examples/lists.py:0:11}}
+{{  #include ../../../uci_bootcamp_2021/examples/lists.py:0:11}}
 ```
 
 ## Declaring a list from an existing Iterable
@@ -34,7 +34,7 @@ builtin [`range`](https://docs.python.org/3/library/functions.html#func-range)).
 integers in the domain `[start, stop)`, every `step` values (default 1).
 
 ```python
-{{  #include ../../uci_bootcamp_2021/examples/lists.py:12:18 }}
+{{  #include ../../../uci_bootcamp_2021/examples/lists.py:12:18 }}
 ```
 
 ## Sorting lists
@@ -42,7 +42,7 @@ integers in the domain `[start, stop)`, every `step` values (default 1).
 Lists can also be sorted, provided their elements are sortable.
 
 ```python
-{{  #include ../../uci_bootcamp_2021/examples/lists.py:20:31 }}
+{{  #include ../../../uci_bootcamp_2021/examples/lists.py:20:31 }}
 ```
 
 ## Mutating the contents of a list
@@ -50,7 +50,7 @@ Lists can also be sorted, provided their elements are sortable.
 The elements of a list can be changed by adding, removing, or by changing existing items.
 
 ```python
-{{  #include ../../uci_bootcamp_2021/examples/lists.py:34:58 }}
+{{  #include ../../../uci_bootcamp_2021/examples/lists.py:34:58 }}
 ```
 
 # Min, Max, Sum.
@@ -60,7 +60,7 @@ The builtin functions [`min`](https://docs.python.org/3/library/functions.html#m
 , [`sum`](https://docs.python.org/3/library/functions.html#sum) can work with lists.
 
 ```python
-{{  #include ../../uci_bootcamp_2021/examples/lists.py:60:75 }}
+{{  #include ../../../uci_bootcamp_2021/examples/lists.py:60:75 }}
 ```
 
 
