@@ -4,6 +4,8 @@ Python has a number of builtin container types, the most common of which is the 
 
 A `list` is an ordered, resizable, mutable, heterogeneous container.
 
+It is also a precursor to `Numpy`'s `ndarray`. More on that [later.](the_ndarray.md)
+
 - It retains the order of items put into it, unless explicitly sorted
 - Additional items can be inserted into, or items removed from, the collection at will.
 - The container can be changed at any time (mutability).

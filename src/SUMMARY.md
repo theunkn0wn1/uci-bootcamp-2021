@@ -14,7 +14,7 @@
         - [Builtin containers]()
           - [list](python/lists.md)
           - [dict]()
-          - [set]()
+          - [set](python/sets.md)
           - [tuple]()
         - [For loops]()
         - [While loops]()
