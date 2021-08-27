@@ -62,3 +62,10 @@ The builtin functions [`min`](https://docs.python.org/3/library/functions.html#m
 ```python
 {{  #include ../../uci_bootcamp_2021/examples/lists.py:60:75 }}
 ```
+
+
+# Further reading.
+
+This is not an exhaustive reference, please consult
+the [standard library documentation](https://docs.python.org/3.8/library/stdtypes.html#sequence-types-list-tuple-range)
+for more information.
