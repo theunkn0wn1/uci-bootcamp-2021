@@ -11,7 +11,7 @@
         - ["Hello world"](python/hello_world.md)
         - [Basic math operators](python/basic_math_operators.md)
         - [Variables](python/variables.md)
-        - [Builtin containers]()
+        - [Builtin containers](python/basic_containers/summary.md)
           - [list](python/basic_containers/lists.md)
           - [dict]()
           - [set](python/basic_containers/sets.md)
