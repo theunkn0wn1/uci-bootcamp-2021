@@ -43,3 +43,11 @@ Now that the `result` is an `int`eger, we can do the bounds check.
 ```python
 {{  #include ../../../uci_bootcamp_2021/examples/while_loops.py:23:24 }}
 ```
+
+Conversely, if the numerical or bounds checks fail, we should tell the user off!
+```python
+{{  #include ../../../uci_bootcamp_2021/examples/while_loops.py:25:26 }}
+```
+> Note that the level of indentation decreased. the `if not valid` is at the same level of indentation as the `if unvalidated_input.isnumeric()`!
+> 
+> Python has significant whitespace!
