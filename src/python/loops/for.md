@@ -42,4 +42,3 @@ There is, of course, a better way of writing this in python.
 For loops are powerful constructs for performing operations against a collection or some other
 iterable. They do not require knowing the length of the iterable (if it has one), or any other details
 beyond the type of the iterable.
-

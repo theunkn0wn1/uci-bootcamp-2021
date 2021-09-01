@@ -1,6 +1,10 @@
 # Summary
 
 - [Preface](chapter_1.md)
+- [IDEs and you](ide/readme.md)
+    - [What they can do for you]()
+        - [Help simplify code](ides/what_they_can_do/simplification.md)
+    
 - [Python]()
     - [History]()
     - [Applications in Data Science]()
@@ -16,7 +20,7 @@
           - [dict]()
           - [set](python/basic_containers/sets.md)
         - [For loops](python/loops/for.md)
-        - [While loops]()
+        - [While loops](python/loops/while.md)
         - [Functions](python/functions.md)
         - [Introduction to modules]()
         - [Introduction to packages]()

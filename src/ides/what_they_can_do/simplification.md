@@ -1,0 +1,1 @@
+![img.png](python_simplify_chained_expression.png)
