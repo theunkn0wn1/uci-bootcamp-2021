@@ -20,7 +20,7 @@ def get_valid_input(
         if unvalidated_input.isnumeric():
             # if its numeric, we can safely interpret it as an integer
             result = int(unvalidated_input)
-            # the we can check the bounds
+            # then we can check the bounds
             valid = valid_minimum <= result <= valid_maximum
         if not valid:
             print("invalid input, please try again!")
