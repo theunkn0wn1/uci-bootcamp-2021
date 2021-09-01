@@ -15,7 +15,7 @@
           - [list](python/basic_containers/lists.md)
           - [dict]()
           - [set](python/basic_containers/sets.md)
-        - [For loops]()
+        - [For loops](python/loops/for.md)
         - [While loops]()
         - [Functions](python/functions.md)
         - [Introduction to modules]()
