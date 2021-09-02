@@ -3,3 +3,6 @@ A package is a folder in the filesystem that contains a `__init__.py` module.
  - all packages are importable.
  - all `libraries` are packages.
  - packages allow related modules to be packaged together.
+
+> The example code for this presentation is set up as a package!
+
