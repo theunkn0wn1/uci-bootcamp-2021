@@ -48,6 +48,6 @@ Conversely, if the numerical or bounds checks fail, we should tell the user off!
 ```python
 {{  #include ../../../uci_bootcamp_2021/examples/while_loops.py:25:26 }}
 ```
-> Note that the level of indentation decreased. the `if not valid` is at the same level of indentation as the `if unvalidated_input.isnumeric()`!
+> Note that the level of indentation decreased. the `if not valid` is at the same level of indentation as the `if untrusted_input.isnumeric()`!
 > 
 > Python has significant whitespace!

@@ -15,11 +15,11 @@ def get_valid_input(
     # loop while the user hasn't given us a suitable value.
     while not valid:
         # get the user's untrusted input.
-        unvalidated_input = input(prompt)
+        untrusted_input = input(prompt)
         # check if the input is numeric.
-        if unvalidated_input.isnumeric():
+        if untrusted_input.isnumeric():
             # if its numeric, we can safely interpret it as an integer
-            result = int(unvalidated_input)
+            result = int(untrusted_input)
             # then we can check the bounds
             valid = valid_minimum <= result <= valid_maximum
         if not valid:
