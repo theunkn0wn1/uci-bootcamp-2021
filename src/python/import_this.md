@@ -11,7 +11,7 @@ Here is an example using the standard-library [Pathlib](https://docs.python.org/
 module:
 
 ```python
-{{  # include ../../uci_bootcamp_2021/examples/pathlib_example.py}}
+{{  #include ../../uci_bootcamp_2021/examples/pathlib_example.py}}
 ```
 
 # Libraries
