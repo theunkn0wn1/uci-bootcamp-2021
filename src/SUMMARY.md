@@ -24,7 +24,7 @@
         - [Functions](python/functions.md)
         - [Introduction to modules](python/modules.md)
         - [Introduction to packages](python/packages.md)
-        - [import this]()
+        - [import this](python/import_this.md)
         - [Introduction to libraries]()
     - [Intermission]()
         - [Code Style]()
