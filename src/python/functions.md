@@ -77,5 +77,7 @@ Sure. Remember that `get_valid_input` while loop presented in the [with for loop
 chapter? Here is the same piece of code in function form!
 
 ```python
+# uci_bootcamp_2021/examples/while_loops.py
+
 {{  #include ../../uci_bootcamp_2021/examples/while_loops.py:8:27 }}
 ```
