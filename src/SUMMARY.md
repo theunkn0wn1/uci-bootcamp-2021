@@ -1,10 +1,15 @@
 # Summary
 
-- [Preface](chapter_1.md)
+- [Preface](preface.md)
 - [IDEs and you](ide/readme.md)
     - [What they can do for you]()
         - [Help simplify code](ides/what_they_can_do/simplification.md)
-    
+        - [Catch errors as they are written]()
+        - [Allow the programmer to write less of the code]()
+        - [Provide rich refactoring services]()
+        - [Integrate with various development tools]()
+        - [Provide rich version control integration]()
+
 - [Python]()
     - [History]()
     - [Applications in Data Science]()
@@ -16,9 +21,9 @@
         - [Basic math operators](python/basic_math_operators.md)
         - [Variables](python/variables.md)
         - [Builtin containers](python/basic_containers/summary.md)
-          - [list](python/basic_containers/lists.md)
-          - [dict]()
-          - [set](python/basic_containers/sets.md)
+            - [list](python/basic_containers/lists.md)
+            - [dict]()
+            - [set](python/basic_containers/sets.md)
         - [For loops](python/loops/for.md)
         - [While loops](python/loops/while.md)
         - [Functions](python/functions.md)
