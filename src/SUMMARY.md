@@ -23,7 +23,7 @@
         - [While loops](python/loops/while.md)
         - [Functions](python/functions.md)
         - [Introduction to modules](python/modules.md)
-        - [Introduction to packages]()
+        - [Introduction to packages](python/packages.md)
         - [import this]()
         - [Introduction to libraries]()
     - [Intermission]()
