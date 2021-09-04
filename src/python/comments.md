@@ -66,29 +66,3 @@ string
 '''
 ```
 
-## Docstrings
-
-The `Docstring` is a concept related to `comments` insofar as both are forms of documentation.
-
-When you write a [Module](python/modules.md) or [Function/Method](python/functions.md), it is best
-practice to write some documentation explaining what that module/function/method is doing.
-
-A Docstring is a string literal that is attached to the Module/Function/Method, and it is read and
-handled by the interpreter. It serves as that object's human-readable documentation.
-
-- For a Module, the docstring should be on the first line of executable code, only below comments and
-  above imports.
-- For functions and methods, the docstring should be the first line of executable code within the
-  function/method body.
-- Stylistically, docstrings should use the multiline string format.
-
-## Example formats
-
-For the remainder of this document, all executable code examples will include a module string that
-contains:
-
-- the path to the example in the git repository
-- a brief explanation of the example module
-
-> For pages in this document that cite the same example, but render different lines of that example, the docstring will only be rendered in the first example codeblock to limit repetition.
-

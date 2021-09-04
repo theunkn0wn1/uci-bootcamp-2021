@@ -19,7 +19,9 @@ ordered sequence.
 Lists are denoted by `[]` square brackets, and may contain zero-or-more elements
 
 ```python
-{{  #include ../../../uci_bootcamp_2021/examples/lists.py:0:11}}
+# uci_bootcamp_2021/examples/lists.py
+
+{{  #include ../../../uci_bootcamp_2021/examples/lists.py:7:11}}
 ```
 
 ## Declaring a list from an existing Iterable
@@ -34,6 +36,8 @@ builtin [`range`](https://docs.python.org/3/library/functions.html#func-range)).
 integers in the domain `[start, stop)`, every `step` values (default 1).
 
 ```python
+# uci_bootcamp_2021/examples/lists.py
+
 {{  #include ../../../uci_bootcamp_2021/examples/lists.py:12:18 }}
 ```
 
@@ -42,6 +46,8 @@ integers in the domain `[start, stop)`, every `step` values (default 1).
 Lists can also be sorted, provided their elements are sortable.
 
 ```python
+# uci_bootcamp_2021/examples/lists.py
+
 {{  #include ../../../uci_bootcamp_2021/examples/lists.py:20:31 }}
 ```
 
@@ -50,6 +56,8 @@ Lists can also be sorted, provided their elements are sortable.
 The elements of a list can be changed by adding, removing, or by changing existing items.
 
 ```python
+# uci_bootcamp_2021/examples/lists.py
+
 {{  #include ../../../uci_bootcamp_2021/examples/lists.py:34:58 }}
 ```
 
@@ -60,6 +68,8 @@ The builtin functions [`min`](https://docs.python.org/3/library/functions.html#m
 , [`sum`](https://docs.python.org/3/library/functions.html#sum) can work with lists.
 
 ```python
+# uci_bootcamp_2021/examples/lists.py
+
 {{  #include ../../../uci_bootcamp_2021/examples/lists.py:60:75 }}
 ```
 

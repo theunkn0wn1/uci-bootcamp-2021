@@ -16,7 +16,9 @@ properties of a [Discrete mathematics Set](http://discrete.openmathbooks.org/dmo
 Sets are declared using `{}` curly-braces with commas between values
 
 ```python
-{{  #include ../../../uci_bootcamp_2021/examples/sets.py:0:12 }}
+# uci_bootcamp_2021/examples/sets.py
+
+{{  #include ../../../uci_bootcamp_2021/examples/sets.py:7:12 }}
 ```
 
 > Warning: this syntax very similiar to [`dict`](),
@@ -25,7 +27,9 @@ Sets are declared using `{}` curly-braces with commas between values
 > `{}` is interpreted as a dictionary literal!
 
  ```python
- {{  #include ../../../uci_bootcamp_2021/examples/sets.py:13:21 }}
+# uci_bootcamp_2021/examples/sets.py
+
+{{  #include ../../../uci_bootcamp_2021/examples/sets.py:13:21 }}
  ```
 
 # Sets have unique elements
@@ -34,7 +38,9 @@ All elements of a set, by definition, are distinct and unique. This property can
 reducing duplicate data.
 
  ```python
- {{  #include ../../../uci_bootcamp_2021/examples/sets.py:22:37 }}
+# uci_bootcamp_2021/examples/sets.py
+
+{{  #include ../../../uci_bootcamp_2021/examples/sets.py:22:37 }}
  ```
 
 As stated above, set operations can be done against Python's `set`.
@@ -42,12 +48,16 @@ As stated above, set operations can be done against Python's `set`.
 # Union
 
 ```python
+# uci_bootcamp_2021/examples/sets.py
+
 {{  #include ../../../uci_bootcamp_2021/examples/sets.py:40:49 }}
 ```
 
 # Intersection
 
 ```python
+# uci_bootcamp_2021/examples/sets.py
+
 {{  #include ../../../uci_bootcamp_2021/examples/sets.py:50:55 }}
 ```
 
@@ -55,6 +65,8 @@ As stated above, set operations can be done against Python's `set`.
 > Note: the difference between two sets is not associative. A-B != B-A
 
 ```python
+# uci_bootcamp_2021/examples/sets.py
+
 {{  #include ../../../uci_bootcamp_2021/examples/sets.py:57:65 }}
 ```
 

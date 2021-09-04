@@ -23,7 +23,7 @@
         - [Anaconda]()
     - [A primer on syntax]()
         - ["Hello world"](python/hello_world.md)
-        - [Comments](python/comments.md)
+        - [Comments and string literals](python/comments.md)
         - [Basic math operators](python/basic_math_operators.md)
         - [Variables](python/variables.md)
         - [Boolean operations]()

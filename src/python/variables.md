@@ -11,20 +11,26 @@ assigned to using the `=` operator.
 For example:
 
 ```python
-{{  #include ../../uci_bootcamp_2021/examples/basic_variables.py:1:16}}
+# uci_bootcamp_2021/examples/basic_variables.py
+
+{{  #include ../../uci_bootcamp_2021/examples/basic_variables.py:6:16}}
 ```
 
 > Warning: in python`=` is used as the *assignment operator*, while`==` is used as the
 > *equality relational operator*. It is a common beginner error mistaking these two operators!
 
 ```python
-{{  #include ../../uci_bootcamp_2021/examples/mistaking_equality_for_assigment.py }}
+# uci_bootcamp_2021/examples/mistaking_equality_for_assigment.py
+
+{{  #include ../../uci_bootcamp_2021/examples/mistaking_equality_for_assigment.py:10:27 }}
 ```
 
 Variables can hold any value, and be of any type. In fact, a variable may be re-assigned after it is
 declared, even if the types don't match!
 
 ```python
+# uci_bootcamp_2021/examples/basic_variables.py
+
 {{  #include ../../uci_bootcamp_2021/examples/basic_variables.py:18:}}
 ```
 
