@@ -61,6 +61,20 @@ print(type(5 // 6))
 # <class 'int'>
 ```
 
+
+## Exponentiation
+Raising one value to a power of another is achieved using the `**` operator.
+```python
+print(5**2)  # 5 squared.
+# 25
+
+# you can also raise values to fractional powers.
+print(125**(1/3))
+# 4.999999999999999
+# Note: exact value may vary slightly due to floating point inaccuracy.
+
+```
+
 ## Modulus
 
 The last of the core math operators we will introduce at this point is the modulus operator.
@@ -72,3 +86,4 @@ print(15 % 6)
 ```
 
 > Note: The modulus of `i % j` will have the same sign as `j`.
+
