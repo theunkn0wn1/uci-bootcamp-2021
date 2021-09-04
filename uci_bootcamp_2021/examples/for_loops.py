@@ -26,4 +26,3 @@ for i, item in enumerate(data):
 # 2 4
 # 3 7
 # 4 3
-
