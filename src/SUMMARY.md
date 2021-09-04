@@ -26,6 +26,7 @@
         - [Comments](python/comments.md)
         - [Basic math operators](python/basic_math_operators.md)
         - [Variables](python/variables.md)
+        - [Boolean operations]()
         - [Types]()
         - [Builtin containers](python/basic_containers/summary.md)
             - [list](python/basic_containers/lists.md)
