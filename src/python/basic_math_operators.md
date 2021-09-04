@@ -5,7 +5,7 @@ Now that "hello world" is out of the way, let's do some maths.
 Python has the standard complement of mathematical operators for addition, subtraction, multiplication,
 and both integer/floating point division operators. Beyond these, there is a selection of standard
 library [math](https://docs.python.org/3.8/library/math.html) components, which are greatly expanded on
-by third-party libraries. [more on those later](third_party_libs/readme.md)
+by third-party libraries. [more on those later](third_party_libs/summary.md)
 
 ## Addition
 
