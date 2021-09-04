@@ -11,7 +11,7 @@ community of developers who write and maintain plethora of libraries.
 - Want a Webserver implemented in Python? Choose
   from [Flask](https://flask.palletsprojects.com/en/2.0.x/)
   and [Django](https://www.djangoproject.com/) for the two most common options.
-- Doing Scientific computing: the SciPy community [has you covered.](https://www.scipy.org/)
+- Doing Scientific Computing: the SciPy community [has you covered.](https://www.scipy.org/)
   Need to do math with
   quaternions? [There is a library for that](https://github.com/KieranWynn/pyquaternion)
 
