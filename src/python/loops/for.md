@@ -1,13 +1,15 @@
 # The `for` loop
 
-Now that we have [containers](../basic_containers/summary.md), we can present loops.
+Now that we have [containers](python/basic_containers/summary.md), we can present loops.
 
 in essence, the `for` loop allows the programmer to *iterate* (to do some repeated action) over the *items* of an iterable, such as a collection.
 
 Let's start with an example.
 
 ```python
-{{  #include ../../../uci_bootcamp_2021/examples/for_loops.py:1:17 }}
+# uci_bootcamp_2021/examples/for_loops.py
+
+{{  #include ../../../uci_bootcamp_2021/examples/for_loops.py:6:17 }}
 ```
 
 What happens here is the body of the `for` loop is run multiple times: once for each value in `data`.
@@ -23,6 +25,8 @@ just [`Containers`](https://docs.python.org/3/library/collections.abc.html#colle
 One common anti-pattern beginner python programmers is to loop over `range`, specifically
 
 ```python
+# uci_bootcamp_2021/examples/for_loops.py
+
 collection = [2, 1, 32]
 # WARNING: Don't do this! antipattern!
 for i in range(len(collection)):
@@ -36,6 +40,8 @@ for i in range(len(collection)):
 There is, of course, a better way of writing this in python.
 
 ```python
+# uci_bootcamp_2021/examples/for_loops.py
+
 {{  #include ../../../uci_bootcamp_2021/examples/for_loops.py:21:30 }}
 ```
 

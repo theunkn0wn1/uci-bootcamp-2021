@@ -55,7 +55,7 @@ For example,
 ```
 
 When calling a function, you can also specify which parameters the arguments fill. this is known
-as `keyword parameters`
+as `keyword arguments`
 
 For example, using the same function as above:
 

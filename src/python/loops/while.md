@@ -7,7 +7,7 @@ To be more precise, a `while` loop may be used when the exact number of iteratio
 
 For example, looping until the user gives a valid input:
 ```python
-{{  #include ../../../uci_bootcamp_2021/examples/while_loops.py:1:6 }}
+# uci_bootcamp_2021/examples/while_loops.py
 ... # code omitted for brevity (see source file in repository)
 {{  #include ../../../uci_bootcamp_2021/examples/while_loops.py:11:26 }}
 ... # code omitted for brevity (see source file in repository)

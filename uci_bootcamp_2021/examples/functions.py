@@ -6,7 +6,8 @@ examples on how to use functions
 
 
 def y(x, slope, initial_offset):
-    """This is a docstring. it is a piece of living documentation that is attached to the function.
+    """
+    This is a docstring. it is a piece of living documentation that is attached to the function.
     Note: different companies have different styles for docstrings, and this one doesn't fit any of them!
 
     this is just a small example of how to write a function in python, using simple math for demonstration.
