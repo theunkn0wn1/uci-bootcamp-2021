@@ -6,15 +6,10 @@ at a later point in time. This someone includes yourself.
 Most languages have the concept of a `comment`, which are non-executable lines embedded into the source
 code, which can contain arbitrary text.
 
-> **Code is NOT self documenting**.
+> **Code is not self documenting**.
 
-While you may understand what you wrote at the time you did so, returning to the code at a later point
-in time, you may forget the context, intent, or implementation details over time. Comments are a form
-of documentation. Do yourself and anyone that ends up reading your code a favor and use comments to
-document your code as you write it.
-
-- It is easier to document code as its being written, than trying to reverse-engineer the code in post
-  without that documentation.
+- It is easier to document code as its being written, than trying to figure out what a fragment of code
+  is intended to do without documentation at a later point in time.
 
 ## Writing comments
 
