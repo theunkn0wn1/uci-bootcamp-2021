@@ -31,6 +31,8 @@ jobs:
           mdbook-version: '0.4.10'
           # mdbook-version: 'latest'
 
+      - run: cargo install mdbook-linkcheck
+
       - run: mdbook build
 
       - name: Deploy
