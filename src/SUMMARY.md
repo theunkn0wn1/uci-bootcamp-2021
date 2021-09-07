@@ -38,7 +38,7 @@
         - [Introduction to modules](python/modules.md)
         - [Introduction to packages](python/packages.md)
         - [import this](python/import_this.md)
-            - [pathlib and cross-platform file paths]()
+            - [pathlib and cross-platform file paths](python/pathlib.md)
 
     - [Intermission]()
         - [Code Style]()

@@ -7,11 +7,18 @@ So what is this `import` you speak so highly of?
 
 In python, the `import` keyword allows us to bring names into scope from another `module` or `package`.
 
-Here is an example using the standard-library [Pathlib](https://docs.python.org/3/library/pathlib.html)
-module:
-
 ```python
-{{  #include ../../uci_bootcamp_2021/examples/pathlib_example.py}}
+# Standard library components are, by style, listed first.
+import io
+
+# Note: Many of the Scientific Computing Python libraries tend to shorthand 
+#       their module names. The following imports follow their convention, 
+#       to be consistent with their documentation and examples.
+import pandas as pd
+import numpy as np
+
+# In This case, we import a specific name from a package instead of the entire package.
+from matplotlib import pyplot as plt
 ```
 
 # Libraries
