@@ -4,7 +4,3 @@ language = "en"
 multilingual = false
 src = "src"
 title = "UCI Bootcamp 2021: Python for Data Science"
-
-[output.html]
-
-[output.linkcheck]
