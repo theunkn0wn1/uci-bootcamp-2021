@@ -48,11 +48,8 @@
         - [IPython](python/ipython.md)
         - [Numpy](python/the_ndarray.md)
         - [Jupyter Notebook](python/jupyter_notebook.md)
-            - [Common pitfalls and their mitigations]()
-
-        - [Pandas]()
-            - [The Dataframe]()
-            - [Loading datasets]()
+            - [Common pitfalls and their mitigations](python/jupyter_notebook_pitfalls.md)
+        - [Pandas and the DataFrame](python/pandas/dataframe.md)
             - [Adding calculated data to dataframes]()
             - [Basic manipulations]()
             - [Writing datasets]()
