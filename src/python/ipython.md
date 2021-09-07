@@ -1,6 +1,6 @@
 # IPython - an enhanced interactive Python REPL.
 
-Back in the [Hello-world]() chapter we saw the vanilla python REPL. For what it is, it gets the job
+Back in the [Hello-world](hello_world.md) chapter we saw the vanilla python REPL. For what it is, it gets the job
 done.
 
 [IPython]() takes the idea of a REPL and adds better features such as tab completion*, multi-line

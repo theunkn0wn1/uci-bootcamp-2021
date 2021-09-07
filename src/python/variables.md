@@ -41,4 +41,4 @@ requires, and how to obtain them programmatically.
 In the context of Data Science, this is a massive boost as it greatly reduces the cognative load on the
 programmer. Allowing the focus on more important things such as ensuring their maths are correct, and
 manipulating the data into the format required to satisfy the project's constraints.
-> Dynamic Typing's strength will become more apparent once we start processing data in the [second half of this presentation]()
+> Dynamic Typing's strength will become more apparent once we start processing data in the [second half of this presentation](third_party_libs/summary.md)

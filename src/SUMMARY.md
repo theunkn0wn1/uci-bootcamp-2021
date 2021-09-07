@@ -27,7 +27,7 @@
         - [Basic math operators](python/basic_math_operators.md)
         - [Variables](python/variables.md)
         - [Boolean operations]()
-        - [Types]()
+        - [Types](python/typing.md)
         - [Builtin containers](python/basic_containers/summary.md)
             - [list](python/basic_containers/lists.md)
             - [dict]()
@@ -44,7 +44,7 @@
         - [Code Style]()
         - [Project Structure]()
 
-    - [SciPy and other noteworthy third-party libraries](python/third_party_libs/summary.md)
+    - [Doing data science using SciPy and other third-party libraries](python/third_party_libs/summary.md)
         - [IPython](python/ipython.md)
         - [Numpy](python/the_ndarray.md)
             - [vectorization]()

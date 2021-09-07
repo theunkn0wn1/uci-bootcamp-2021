@@ -32,7 +32,7 @@ Python does not have multiline comments.
 
 ## String Literals
 
-In the [Hello, world!](python/hello_world.md) we made use of a `string literal`.
+In the [Hello, world!](hello_world.md) we made use of a `string literal`.
 
 String literals take one of two primary forms: single line and multi-line.
 

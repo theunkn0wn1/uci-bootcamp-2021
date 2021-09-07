@@ -1,4 +1,5 @@
 # Basic containers
+- A `Container` is a type that *contains* other objects.
 
 Python has a large collection of built-in container types usable for various functions.
 

@@ -1,6 +1,6 @@
 # The `for` loop
 
-Now that we have [containers](python/basic_containers/summary.md), we can present loops.
+Now that we have [containers](../basic_containers/summary.md), we can present loops.
 
 in essence, the `for` loop allows the programmer to *iterate* (to do some repeated action) over the *items* of an iterable, such as a collection.
 
@@ -22,7 +22,7 @@ just [`Containers`](https://docs.python.org/3/library/collections.abc.html#colle
 .
 
 
-One common anti-pattern beginner python programmers is to loop over `range`, specifically
+One common anti-pattern beginner python programmers is to loop over `range`, specifically:
 
 ```python
 # uci_bootcamp_2021/examples/for_loops.py
