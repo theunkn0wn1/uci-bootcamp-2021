@@ -24,5 +24,5 @@ The author prepared this document with students of the Physical Sciences in mind
 It is assumed the reader does not know Python, but has been previously exposed to logic and some
 programming concepts. As such, the first section has been dedicated to explaining the core syntax and
 basic terminology of the language, which serve as the bedrock the Scientific Computing stack builds off
-of. The author firmly believes that teaching the Scientific Computing stack in a vacuum is not
-beneficial to the student.  
+of. 
+The author firmly believes that teaching how to use Python for Scientific Computing first requires the student to understand the fundamentals of Python itself.

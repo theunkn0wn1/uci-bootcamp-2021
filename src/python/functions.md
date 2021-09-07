@@ -70,6 +70,18 @@ For example, using the same function as above:
 > keyword arguments can be presented out of order, but MUST only come after all positional arguments.
 >  - the caller can also only present one argument for a given parameter
 
+## Applying type annotations to function definitions
+
+[Type annotations](typing.md) can also be applied to function definitions, to improve readability and
+documentation.
+
+For the above function, it can also be written as 
+```python
+{{  #include ../../uci_bootcamp_2021/examples/functions.py:18:20 }}
+
+```
+ - `-> float` indicates the value returned by the function is an instance of `float`.
+
 # Something less contrived
 
 Math functions aside, show me a function that isn't better off copy/pasted into the callsite!
