@@ -78,7 +78,6 @@ documentation.
 For the above function, it can also be written as 
 ```python
 {{  #include ../../uci_bootcamp_2021/examples/functions.py:18:20 }}
-
 ```
  - `-> float` indicates the value returned by the function is an instance of `float`.
 
