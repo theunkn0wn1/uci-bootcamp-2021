@@ -12,11 +12,12 @@ For example:
 - On Windows, the "My Documents" folder exists at `C:/users/{user}/Documents`
 - On Linux, the equivalent path would be `~/Documents` which typically expands
   to `/home/{user}/Documents`.
-- With pathlib, to refer to this directory as:
+- With pathlib, we can refer to this platform-specific directory using [`pathlib.Path.home`](https://docs.python.org/3.8/library/pathlib.html#pathlib.Path.home):
 
 ```py
 from pathlib import Path
 
+# Path.home refers to the user's home directory
 documents = Path.home() / "Documents"
 ```
 
