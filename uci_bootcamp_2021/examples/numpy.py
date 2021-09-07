@@ -16,10 +16,24 @@ array = np.array(vanilla_list)
 
 # Taking the sum via vanilla means
 print(sum(vanilla_list))
-# taking the sum via numpy
+# Taking the sum via numpy
 print(array.sum())
 
-# taking the subset of values that are even
-evens = array[array % 0 == 0]
+# Taking the subset of values that are even
+evens = array[array % 2 == 0]
 # and the equivalent pure-python list:
-evens_list = [value for value in vanilla_list if value % 0 == 0]
+evens_list = [value for value in vanilla_list if value % 2 == 0]  # "list comprehension"
+
+# multiplying all values of the array by a scalar
+double_array = array * 2
+double_list = [value * 2 for value in vanilla_list]  # "list comprehension"
+
+# Taking the dot product of two arrays:
+v1 = np.array([1, 2, 3])
+v2 = np.array([4, 5, 6])
+dot = v1.dot(v2)
+# alternatively,
+dot = v1 @ v2
+print(dot)
+
+# Note: the pure-python equivalent to this is not clean.

@@ -10,8 +10,12 @@ limitations.
 
 > Note: It is strongly advised to consult [Numpy's official documentation](https://numpy.org/devdocs/user/quickstart.html#array-creation).
 > The official docs are very well written, and go into more depth than this presentation.
+
 ## Basic operations on `numpy` arrays and their standard-library counterparts
 
 ```python
 # uci_bootcamp_2021/examples/numpy.py
+
+{{  #include ../../uci_bootcamp_2021/examples/numpy.py:6:37}}
+
 ```
