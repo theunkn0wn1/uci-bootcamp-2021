@@ -47,10 +47,7 @@
     - [Doing data science using SciPy and other third-party libraries](python/third_party_libs/summary.md)
         - [IPython](python/ipython.md)
         - [Numpy](python/the_ndarray.md)
-            - [vectorization]()
-        - [Poetry]()
-            - [A Primer on dependency management]()
-        - [Jupyter Notebook]()
+        - [Jupyter Notebook](python/jupyter_notebook.md)
             - [Common pitfalls and their mitigations]()
 
         - [Pandas]()
@@ -66,3 +63,5 @@
         - [Seaborn]()
             - [Plotting data, via Seaborn wrappers]()
     
+        - [Poetry]()
+            - [A Primer on dependency management]()
