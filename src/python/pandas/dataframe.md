@@ -11,7 +11,7 @@ For this and following slides, we will be using download speed data provided by 
 For convenience, the dataset is provided in this repository as `data/us-graph-2015-02.csv`
 
 > "The Netflix ISP Speed Index." 27 06 2018. *Netflix.* csv. 27 06 2018
->   \<https://ispspeedindex.netflix.com/country/us\>
+> \<https://ispspeedindex.netflix.com/country/us\>
 
 ## A cursory glance at the raw data
 
@@ -22,12 +22,11 @@ For convenience, the dataset is provided in this repository as `data/us-graph-20
 - This data is table of numerical values, but its intended for a machine to consume.
 - This data isn't exactly human-readable.
 - A visual inspection confirms this appears to be a comma-seperated-values file, which
-  pandas [has a method for parsing]()
+  pandas [has a method for parsing](https://pandas.pydata.org/pandas-docs/version/0.23.1/generated/pandas.read_csv.html#pandas.read_csv)
 
-## Loading it with pandas
+> For the full analysis, please see `notebooks/Netflix.ipynb`
 
-Let's load the data into Python using Pandas!
 
-```python
-
-```
+# Further reading
+This presentation is how I typically use pandas in a nutshell.
+For further reading please consult Pandas's [user guide](https://pandas.pydata.org/docs/user_guide/10min.html): 

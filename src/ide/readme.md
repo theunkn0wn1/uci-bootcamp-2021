@@ -9,4 +9,4 @@ the tools can be baked into their code editor.
 IDEs provide rich integration of both code editing features, bringing tools such as static analysis
 tooling and debuggers into the same program and window.
 
-In the following section, these features will be showcased.
+What are these tools i hear you ask? Next chapter we will discuss [the tools of the trade](tools.md).
