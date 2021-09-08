@@ -20,9 +20,12 @@ even create a [virtual environment]()  for you.
 
 ![pycharm_fresh_project.png](pycharm_fresh_project.png)
 
-## Anatomy of the IDE windowS
+## Anatomy of the IDE windows
 
 - Pycharm spawns in one window by default, and includes several "tabs"
 
 - The left tab is the "project" view: it corresponds to the filesystem structure of the project.
 - the bottom tab has multiple views, in this case the [Python console](../python/hello_world.md).
+- Other tabs exist, such as the `Terminal` window which gives access to the OS shell, and even some
+  language-specific features.
+- There are also tabs that only show up in certain contexts, such as the [debugger]() window.
