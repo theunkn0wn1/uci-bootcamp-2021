@@ -3,7 +3,7 @@
 - [Preface](preface.md)
 - [IDEs and you](ide/readme.md)
     - [The tools of the trade](ide/tools.md)
-    - [The IDE being presented](ide/pycharm.md)
+    - [Introducing PyCharm](ide/pycharm.md)
     - [What they can do for you]()
         - [Integrate with various development tools]()
             - [Static analysis]()

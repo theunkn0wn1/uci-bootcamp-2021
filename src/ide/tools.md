@@ -35,3 +35,4 @@ None of this covers the code editor window!
  - Code generation
  - Refactoring
  - Templates!
+ - Structural Analysis
