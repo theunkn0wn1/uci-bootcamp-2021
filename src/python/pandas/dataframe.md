@@ -24,9 +24,28 @@ For convenience, the dataset is provided in this repository as `data/us-graph-20
 - A visual inspection confirms this appears to be a comma-seperated-values file, which
   pandas [has a method for parsing](https://pandas.pydata.org/pandas-docs/version/0.23.1/generated/pandas.read_csv.html#pandas.read_csv)
 
+## loading the data into pandas
+
+```python
+{{  # include ../../../uci_bootcamp_2021/examples/pandas_example.py:6:20 }}
+```
+
+The DF at this state looks like
+
+```
+                2012-11-01  2012-12-01  ...  2015-01-01  2015-02-01
+Provider                                ...                        
+Comcast               2.17        2.10  ...        3.28        3.36
+Cox                   2.07        2.00  ...        3.32        3.38
+AT&T - U-verse        1.94        1.92  ...        3.03        3.11
+Verizon - FiOS        2.19        2.10  ...        3.43        3.53
+AT&T - DSL            1.42        1.41  ...        2.13        2.20
+[5 rows x 28 columns]
+```
+
 > For the full analysis, please see `notebooks/Netflix.ipynb`
 
-
 # Further reading
-This presentation is how I typically use pandas in a nutshell.
-For further reading please consult Pandas's [user guide](https://pandas.pydata.org/docs/user_guide/10min.html): 
+
+This presentation is how I typically use pandas in a nutshell. For further reading please consult
+Pandas's [user guide](https://pandas.pydata.org/docs/user_guide/10min.html): 

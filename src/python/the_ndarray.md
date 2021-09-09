@@ -14,8 +14,8 @@ limitations.
 ## Basic operations on `numpy` arrays and their standard-library counterparts
 
 ```python
-# uci_bootcamp_2021/examples/numpy.py
+# uci_bootcamp_2021/examples/numpy_example.py
 
-{{  #include ../../uci_bootcamp_2021/examples/numpy.py:6:37}}
+{{  #include ../../uci_bootcamp_2021/examples/numpy_example.py:6:37}}
 
 ```
