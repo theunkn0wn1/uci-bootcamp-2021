@@ -19,7 +19,7 @@ the source code of the program to emit *logging* messages.
 >  2. Once debugging is complete and the bug is fixed; all of that output has to be removed.
 >
 > The best practice when adding logging to a project, is to use a *logging framework*, that way logging data can remain in the application for later review.
->  - logging frameworks support filtering and can often be processed in a structured fashion.
+>  - logging frameworks support filtering and verbosity levels, and can potentially write logs to places other than the standard output.
 
 ## Methods of debugging: attaching a debugger
 
