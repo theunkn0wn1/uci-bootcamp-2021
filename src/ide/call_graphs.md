@@ -20,7 +20,7 @@ We could probably do a text search, but that will return irrelevant results.
 
 We don't need to do that, because PyCharm' static analysis features extends to code structure!
 
-By placing the cursor over the method and pressing the `Control Heiarchy` key (or activating in the
+By placing the cursor over the method and pressing the `Code Heiarchy` key (or activating in the
 context menu), we can access the information our IDE has about this method!
 
 ![caller_example.png](caller_example.png)
