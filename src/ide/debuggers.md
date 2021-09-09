@@ -128,3 +128,6 @@ amount of information that is presented at once.
 
 Aside, everything done in PyCharm's debugger *can* be done via the command line, but it is far less
 easy or intuitive to work with.
+
+## Further reading
+[Official documentation](https://www.jetbrains.com/help/pycharm/debugging-code.html)

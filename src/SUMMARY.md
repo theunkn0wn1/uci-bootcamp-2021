@@ -10,7 +10,7 @@
             - [Programming error detection](ide/error_detection.md)
             - [Call graphs](ide/call_graphs.md)
         - [Integrate with various development tools]()
-          - [Run configurations]()
+          - [Run configurations](ide/run_configurations.md)
           - [Debuggers](ide/debuggers.md)
           - [Allow the programmer to write less of the code]()
           - [Provide rich refactoring services]()
