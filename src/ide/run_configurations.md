@@ -22,11 +22,22 @@ Specifically, the `Script Path` field needs to be filled in, pointing at the fil
 
 - Note: `Script Path` is a drop down, and `Module name` can also be selected. The former
   does `python {{Script Path}}, the latter does `python -m {{Module Name}}`
-    
+
 - the working directory should also be set, or the module may behave unpredictably when handling file
   paths.
 
 ![completed_pathlib_run_config.png](completed_pathlib_run_config.png)
+
+## Platform specific tooling: pytest
+
+There is a plethora of templates available, including for platform specific tools:
+
+- Test framework integrations
+- Scientific Python integrations
+- Flask/Django integrations
+- Documentation generators like Sphinx and Javadoc
+- Docker
+- etc.
 
 ## Further reading
 
