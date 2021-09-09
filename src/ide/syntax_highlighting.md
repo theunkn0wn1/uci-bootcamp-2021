@@ -7,7 +7,11 @@ Classically, the jumping off point is [hello-world](../python/hello_world.md)
 As we start typing into the `main.py` provided to us, a window pops up.
 ![print_completion.png](print_completion.png)
 
-This is one of an IDEs central features: Code completion!
+This is one of an IDEs central features: Code completion! Also shows usage hints!
+
+- The IDE can render hints on how a function to be used
+- The IDE knows what *symbols* are valid in a given context, and can intellegently present those as you
+  write.
 
 ## Code Completion
 
@@ -47,6 +51,7 @@ the colors, if the structure looks right.
 
 > If your code isn't highlighting the way you expect, something is written incorrectly.
 ![syntax_highlighting_error_example.png](syntax_highlighting_error_example.png)
+
 - In this example, x is highlighted as if it is a [string](../python/comments.md#string-literals)!
-    - it is a string, which is clearly incorrect and is why the code fails to run.
+    - It is, in fact, a string, which is clearly incorrect and is why the code fails to run.
     - At a glance, the programmer can spot this error, regardless of other tools.
