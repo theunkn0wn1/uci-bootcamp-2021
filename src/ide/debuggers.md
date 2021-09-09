@@ -18,7 +18,8 @@ the source code of the program to emit *logging* messages.
 >  1. Not every type can be trivially cast to a string and printed.
 >  2. Once debugging is complete and the bug is fixed; all of that output has to be removed.
 >
-> The best practice when adding logging to a project, is to use a *logging framework*.
+> The best practice when adding logging to a project, is to use a *logging framework*, that way logging data can remain in the application for later review.
+>  - logging frameworks support filtering and can often be processed in a structured fashion.
 
 ## Methods of debugging: attaching a debugger
 
