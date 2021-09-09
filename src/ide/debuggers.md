@@ -132,3 +132,5 @@ easy or intuitive to work with.
 
 ## Further reading
 [Official documentation](https://www.jetbrains.com/help/pycharm/debugging-code.html)
+[Logging in the standard library](https://docs.python.org/3/library/logging.html)
+[Third-party logging via loguru](https://github.com/Delgan/loguru)
