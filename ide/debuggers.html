@@ -182,6 +182,93 @@ demystify the Jetbrain's PyCharm Debugger.</p>
 .</p>
 <p>For this page, we will be using the <a href="../python/pathlib.html">pathlib example</a> run config established in
 the <a href="">run configurations</a> section.</p>
+<p>The second thing necessary to using a debugger is to know at what point in the program you want to
+pause it for inspection. This location more commonly known as a <code>breakpoint</code>.</p>
+<ul>
+<li>While you <em>can</em> step through a program one instruction at a time, doing so would be horribly slow and
+inefficient.</li>
+</ul>
+<p>For example, let's place a breakpoint on the line that the main function returns, so we can inspect the
+final state of the function before its state falls out of scope.</p>
+<p>To achieve this, we click in the gutter on line 26.</p>
+<ul>
+<li>The area in the code editor window between the code itself is known as the &quot;gutter&quot;
+<img src="debugger_breakpoint_set.png" alt="debugger_breakpoint_set.png" /></li>
+</ul>
+<p>Two things are immediately visible as a result of this:</p>
+<ol>
+<li>The place we clicked is filled in with a red circle, indicating the line has a breakpoint
+registered.</li>
+<li>The entire line receives a red highlight, indicating that line has a breakpoint on it.</li>
+</ol>
+<blockquote>
+<p>You can set an arbitrary number of breakpoints.
+A breakpoint triggers when the marked line is reached, BEFORE it executes.</p>
+</blockquote>
+<h3 id="the-debugging-view"><a class="header" href="#the-debugging-view">The Debugging view</a></h3>
+<p>Now that we have a run configuration, and we have set a breakpoint, we can run the example under the
+debugger. At the top right of the PyCharm window, right next to the <code>pathlib_example</code> dropdown there
+are 5 different run buttons. Five!</p>
+<p>Not to worry, as each one has a specifc job, and the one we want looks like a squashed bug. Second from
+the left. Circled Red.</p>
+<p><img src="debugging_run_under_debugger.png" alt="debugging_run_under_debugger.png" /></p>
+<p>After being pressed, PyC automatically opens the editor window for the <code>pathlib_example.py</code>. You may
+notice there is some extra information rendered over the source file now. It also opens up the debugger
+window and shows some information.</p>
+<blockquote>
+<p>The debugger window may seem daunting at first, but don't let it intimidate you!</p>
+</blockquote>
+<p><img src="debuggers_breakpoint_view.png" alt="debuggers_breakpoint_view.png" /></p>
+<p>Let's break this down, one view at a time. Starting with the code view:</p>
+<ol>
+<li>The line the program hit the breakpoint on is now highlighted in blue, replacing the red highlight.</li>
+<li>The value of variables is rendered as overlay to the right of the code.
+<ul>
+<li>This overlay can be useful when the variables are of simple types or only house a small amount of
+data.</li>
+</ul>
+</li>
+<li>Moving on to the debugger window, we see a view of all variables that are in scope.
+<ul>
+<li>From here we can directly observe the value of every variable</li>
+</ul>
+</li>
+<li>We also have some basic controls on the far left of the window, which control (in order):
+<ul>
+<li>Restarting the program</li>
+<li>Shortcut to editing the run configuration</li>
+<li>Resuming the program</li>
+<li>Halting the program (used only sparingly; prefer to use breakpoints!)</li>
+<li>Button to view all breakpoints</li>
+<li>Button to &quot;mute&quot; breakpoints</li>
+<li>Debugger settings</li>
+<li>Pin view</li>
+</ul>
+</li>
+<li>More advanced debugger controls
+<ul>
+<li>Show execution point (opens current breakpoint in code editor and brings to foreground)</li>
+<li>&quot;step over&quot; - run until the next line of code <em>in the current function</em> is reached, ignoring
+library code.&quot;</li>
+<li>&quot;step into&quot; - step into the next line of code executed even if its in a differnt module.</li>
+<li>&quot;step into my code&quot; - step until the next line of <em>project</em> code is executed, ignoring library
+code.</li>
+<li>&quot;force step into&quot; - more agressive &quot;step into&quot;</li>
+<li>&quot;step out&quot;  - run until the current function returns, then break.</li>
+<li>&quot;run to cursor&quot; - Does what it says on the tin.</li>
+</ul>
+</li>
+<li>&quot;Evaluate expression&quot; - super useful, allows you to run a small amount of code in the current
+breakpoint context. So useful its specifically called out here!</li>
+</ol>
+<h2 id="bottom-line"><a class="header" href="#bottom-line">Bottom line</a></h2>
+<p>The debugger is an incredibly powerful piece of software.</p>
+<p>Using it can greatly improve the debuggability of code and make the debugging experience more
+pleasurable.</p>
+<p>The biggest challenge to learning how to use the debugger is getting over the hurdle that is the sheer
+amount of information that is presented at once.</p>
+<p>Aside, everything done in PyCharm's debugger <em>can</em> be done via the command line, but it is far less
+easy or intuitive to work with.</p>
 
                     </main>
 
