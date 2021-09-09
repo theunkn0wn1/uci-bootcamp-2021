@@ -18,6 +18,11 @@ def main():
     # emit the first line of the data
     print(lines[0])
 
+    # build a list of lists containing each individual cell of the CSV; the hard way.
+    table = []
+    for line in lines:
+        table.append(line.split(','))
+
     return lines
 
 
