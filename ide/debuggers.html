@@ -161,7 +161,10 @@ the source code of the program to emit <em>logging</em> messages.</p>
 <li>Not every type can be trivially cast to a string and printed.</li>
 <li>Once debugging is complete and the bug is fixed; all of that output has to be removed.</li>
 </ol>
-<p>The best practice when adding logging to a project, is to use a <em>logging framework</em>.</p>
+<p>The best practice when adding logging to a project, is to use a <em>logging framework</em>, that way logging data can remain in the application for later review.</p>
+<ul>
+<li>logging frameworks support filtering and can often be processed in a structured fashion.</li>
+</ul>
 </blockquote>
 <h2 id="methods-of-debugging-attaching-a-debugger"><a class="header" href="#methods-of-debugging-attaching-a-debugger">Methods of debugging: attaching a debugger</a></h2>
 <p>The logging method requires source code modification, which is quite unwieldy. It becomes infeasable
