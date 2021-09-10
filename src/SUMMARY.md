@@ -10,13 +10,11 @@
             - [Programming error detection](ide/error_detection/error_detection.md)
             - [Call graphs](ide/call_graphs/call_graphs.md)
             - [Provide rich refactoring services](ide/refactoring/refactoring.md)
-            - [Allow the programmer to write less of the code]()
 
         - [Integrate with various development tools]()
             - [Run configurations](ide/run_configs/run_configurations.md)
             - [Debuggers](ide/breakpoints/debuggers.md)
             - [Provide rich version control integration](ide/vcs/vcs.md)
-            - [Language-specific tooling]()
 
 - [Python]()
     - [History]()
