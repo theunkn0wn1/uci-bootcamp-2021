@@ -2,10 +2,10 @@
 
 Now that we have an editor window, we should write some code!
 
-Classically, the jumping off point is [hello-world](../python/hello_world.md)
+Classically, the jumping off point is [hello-world](../../python/hello_world.md)
 
 As we start typing into the `main.py` provided to us, a window pops up.
-![print_completion.png](print_completion.png)
+![print_completion.png](01.png)
 
 This is one of an IDEs central features: Code completion! Also shows usage hints!
 
@@ -34,11 +34,11 @@ so we start typing that:
 print("foo,bar,baz,snafu".split(','))
 ```
 
-![completion_str_split.png](completion_str_split.png)
+![completion_str_split.png](02.png)
 
 Here, PyCharm clearly understands what kind of objects it has to work with, as well as what operations
 are valid on them.
-![str_completion_post_split.png](str_completion_post_split.png)
+![str_completion_post_split.png](03.png)
 
 To keep these documents and this presentation concise, some details have been omitted. For further
 reading, please consider reading
@@ -50,8 +50,8 @@ Syntax highlighting can show, at a glance, if a piece of code is valid syntax an
 the colors, if the structure looks right.
 
 > If your code isn't highlighting the way you expect, something is written incorrectly.
-![syntax_highlighting_error_example.png](syntax_highlighting_error_example.png)
+![syntax_highlighting_error_example.png](04.png)
 
-- In this example, x is highlighted as if it is a [string](../python/comments.md#string-literals)!
+- In this example, x is highlighted as if it is a [string](../../python/comments.md#string-literals)!
     - It is, in fact, a string, which is clearly incorrect and is why the code fails to run.
     - At a glance, the programmer can spot this error, regardless of other tools.
