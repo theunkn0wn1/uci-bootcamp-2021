@@ -1,15 +1,15 @@
 # Summary
 
 - [Preface](preface.md)
-- [IDEs and you](ide/readme.md)
-    - [The tools of the trade](ide/tools.md)
-    - [Introducing PyCharm](ide/pycharm.md)
+- [IDEs and you](ide/intro/readme.md)
+    - [The tools of the trade](ide/intro/tools.md)
+    - [Introducing PyCharm](ide/intro/pycharm.md)
     - [What they can do for you]()
         - [Static analysis]()
             - [syntax highlighting and code completion](ide/syntax_highlighting/syntax_highlighting.md)
             - [Programming error detection](ide/error_detection/error_detection.md)
             - [Call graphs](ide/call_graphs/call_graphs.md)
-            - [Provide rich refactoring services](ide/refactoring.md)
+            - [Provide rich refactoring services](ide/intro/refactoring.md)
             - [Allow the programmer to write less of the code]()
 
         - [Integrate with various development tools]()

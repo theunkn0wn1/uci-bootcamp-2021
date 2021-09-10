@@ -25,7 +25,7 @@ even create a [virtual environment]()  for you.
 - Pycharm spawns in one window by default, and includes several "tabs"
 
 - The left tab is the "project" view: it corresponds to the filesystem structure of the project.
-- the bottom tab has multiple views, in this case the [Python console](../python/hello_world.md).
+- the bottom tab has multiple views, in this case the [Python console](../../python/hello_world.md).
 - Other tabs exist, such as the `Terminal` window which gives access to the OS shell, and even some
   language-specific features.
 - There are also tabs that only show up in certain contexts, such as the [debugger]() window.
