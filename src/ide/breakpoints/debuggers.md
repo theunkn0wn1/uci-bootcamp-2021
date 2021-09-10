@@ -39,11 +39,11 @@ demystify the Jetbrain's PyCharm Debugger.
 
 ## Debugging a program in PyCharm
 
-The first thing you need to debug a script written in Python, using PyCharm, is a [run configuration]()
+The first thing you need to debug a script written in Python, using PyCharm, is a [run configuration](../run_configs/run_configurations.md)
 .
 
 For this page, we will be using the [pathlib example](../../python/pathlib.md) run config established in
-the [run configurations]() section.
+the [run configurations](../run_configs/run_configurations.md) section.
 
 The second thing necessary to using a debugger is to know at what point in the program you want to
 pause it for inspection. This location more commonly known as a `breakpoint`.

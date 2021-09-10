@@ -7,7 +7,7 @@
     - [What they can do for you]()
         - [Static analysis]()
             - [syntax highlighting and code completion](ide/syntax_highlighting.md)
-            - [Programming error detection](ide/error_detection.md)
+            - [Programming error detection](ide/error_detection/error_detection.md)
             - [Call graphs](ide/call_graphs/call_graphs.md)
         - [Integrate with various development tools]()
           - [Run configurations](ide/run_configs/run_configurations.md)
