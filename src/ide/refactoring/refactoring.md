@@ -44,6 +44,7 @@ Once more we call back to the [Pathlib example](../../python/pathlib.md)
 If we recall the source code of this example, we will see there is a function defined here!.
 
 ```python
+# uci_bootcamp_2021/examples/pathlib_example.py
 {{  #include ../../../uci_bootcamp_2021/examples/pathlib_example.py:6:20}}
 ```
 
@@ -53,19 +54,44 @@ section, an entirely different module calls this function!
 
 If we were to rename this function *without* refactoring; the test suite will fail.
 
-Fun fact: Pycharm is smart enough to ask you if you want to refactor if you manually edit a function name!
+Fun fact: Pycharm is smart enough to ask you if you want to refactor if you manually edit a function
+name!
 ![img.png](01.png)
 
-Anyways, if we ignored this warning for the sake of demonstration we can observe the [test suite]() failing.
+Anyways, if we ignored this warning for the sake of demonstration we can observe the [test suite]()
+failing.
 ![img.png](02.png)
+
 - This demonstrates that renaming things requires a bit more effort than changing the definition.
 
-However, if we used the `refactor | rename` feature, all of the usages will be updated and the tests will pass.
-
+However, if we used the `refactor | rename` feature, all of the usages will be updated and the tests
+will pass.
 
 ## Extracting variables
+
 The last of the major refactoring features that we will show here is the `Refactor | Extract Variable`
 
+Take the following code fragment for example:
+
+```python
+x = 4 + (16 ** 32 - 4 % 7)
+y = x + (16 ** 32 - 4 % 7)
+z = y + (16 ** 32 - 4 % 7)
+```
+In this poorly written example, each of the three lines repeats a comparatively expensive operation needlessly.
+
+To make this code simpler, we can do one of two things:
+
+1. Manually introduce a variable and update all three lines of code to use that variable
+2. Or we can ask PyCharm to do it for us via the `Refactor | Extract Variable feature.`
+![img.png](03.png)
+
+```python
+expensive = (16 ** 32 - 4 % 7)
+x = 4 + expensive
+y = x + expensive
+z = y + expensive
+```
 # Further reading:
 
 [Move Refactorings official docs](https://www.jetbrains.com/help/pycharm/move-refactorings.html)

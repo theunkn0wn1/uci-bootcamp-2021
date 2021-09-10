@@ -9,7 +9,7 @@
             - [syntax highlighting and code completion](ide/syntax_highlighting/syntax_highlighting.md)
             - [Programming error detection](ide/error_detection/error_detection.md)
             - [Call graphs](ide/call_graphs/call_graphs.md)
-            - [Provide rich refactoring services](ide/intro/refactoring.md)
+            - [Provide rich refactoring services](ide/refactoring/refactoring.md)
             - [Allow the programmer to write less of the code]()
 
         - [Integrate with various development tools]()

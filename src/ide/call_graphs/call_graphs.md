@@ -9,6 +9,7 @@ I will use one of the examples out of the Python presentation, which shares the 
 See [Pathlib](../../python/pathlib.md) for an explanation of what this piece of code is doing.
 
 ```python
+# uci_bootcamp_2021/examples/pathlib_example.py
 {{ #include ../../../uci_bootcamp_2021/examples/pathlib_example.py:6:20}}
 ```
 
