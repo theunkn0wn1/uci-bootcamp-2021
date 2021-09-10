@@ -63,3 +63,5 @@
 
         - [Poetry]()
             - [A Primer on dependency management]()
+    
+- [Copyright Notice](copyright.md)
