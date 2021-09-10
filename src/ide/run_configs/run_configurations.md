@@ -12,8 +12,8 @@ tools and modes.
 One of these modes is the "python" template.
 
 > Usability note: Just like with code completion in the editor window, you can type into the "New configuration" dropdown menu to filter!
-
-![creating_run_configuration.png](creating_run_configuration.png)
+c
+![01.png](01.png)
 
 Once the Python run configuration has been created, some details need to be filled in for it to take
 effect.
@@ -26,7 +26,7 @@ Specifically, the `Script Path` field needs to be filled in, pointing at the fil
 - the working directory should also be set, or the module may behave unpredictably when handling file
   paths.
 
-![completed_pathlib_run_config.png](completed_pathlib_run_config.png)
+![02.png](02.png)
 
 ## Platform specific tooling: pytest
 

@@ -6,10 +6,10 @@ To be more representative of challenges programmers can face, its necessary to s
 projects.
 
 I will use one of the examples out of the Python presentation, which shares the same source repository.
-See [Pathlib](../python/pathlib.md) for an explanation of what this piece of code is doing.
+See [Pathlib](../../python/pathlib.md) for an explanation of what this piece of code is doing.
 
 ```python
-{{ #include ../../uci_bootcamp_2021/examples/pathlib_example.py:6:20}}
+{{ #include ../../../uci_bootcamp_2021/examples/pathlib_example.py:6:20}}
 ```
 
 ## Getting a list of everything that calls this function
