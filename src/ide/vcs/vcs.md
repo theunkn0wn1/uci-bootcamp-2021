@@ -28,10 +28,25 @@ Similarly, modified files that have been previously committed appear as blue.
 Files that have been added on disk, but are not versioned, appear as red.
 ![img_1.png](03.png)
 
-### Within files
+### Changes Within files
 
 Seeing that files have been changed in the project view is nothing impressive, and hardly represents
-what can be done with change tracking.
+what can be done with change tracking. 
 
+Within versioned files that have been changed, the IDE can be asked to show you what's changed.
+This can be quite useful when preparing commit messages, or when chasing down bugs.
+
+Take this document, for instance:
+
+![img.png](04.png)
+
+The IDE adds some information in the gutter marking what lines have changed and how.
+ - Green indicates lines that are strictly added
+ - Orange indicates lines where something was removed
+ - Blue indicates lines that have been modified.
+
+Put more concisely, we can also look at the diff in the commit window:
+
+![img.png](05.png)
 
 > Note: the colors may change depending on user's configuration. These colors are relative to the `Dracula` theme.
