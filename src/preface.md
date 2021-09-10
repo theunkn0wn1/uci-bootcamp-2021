@@ -24,5 +24,10 @@ The author prepared this document with students of the Physical Sciences in mind
 It is assumed the reader does not know Python, but has been previously exposed to logic and some
 programming concepts. As such, the first section has been dedicated to explaining the core syntax and
 basic terminology of the language, which serve as the bedrock the Scientific Computing stack builds off
-of. 
-The author firmly believes that teaching how to use Python for Scientific Computing first requires the student to understand the fundamentals of Python itself.
+of. The author firmly believes that teaching how to use Python for Scientific Computing first requires
+the student to understand the fundamentals of Python itself.
+
+## Sources
+
+Presentation source material and examples can be located on
+Github:  [theunkn0wn1/uci-bootcamp-2021](https://github.com/theunkn0wn1/uci-bootcamp-2021)

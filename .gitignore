@@ -2,3 +2,4 @@ book
 .idea
 **/.ipynb_checkpoints
 book.toml
+**/__pycache__
