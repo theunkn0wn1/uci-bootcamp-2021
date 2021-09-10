@@ -62,6 +62,10 @@ Anyways, if we ignored this warning for the sake of demonstration we can observe
 
 However, if we used the `refactor | rename` feature, all of the usages will be updated and the tests will pass.
 
+
+## Extracting variables
+The last of the major refactoring features that we will show here is the `Refactor | Extract Variable`
+
 # Further reading:
 
 [Move Refactorings official docs](https://www.jetbrains.com/help/pycharm/move-refactorings.html)
