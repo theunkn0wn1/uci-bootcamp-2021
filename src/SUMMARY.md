@@ -11,9 +11,9 @@
             - [Call graphs](ide/call_graphs.md)
         - [Integrate with various development tools]()
           - [Run configurations](ide/run_configurations.md)
-          - [Debuggers](ide/debuggers.md)
+          - [Debuggers](ide/breakpoints/debuggers.md)
+          - [Provide rich refactoring services](ide/refactoring.md)
           - [Allow the programmer to write less of the code]()
-          - [Provide rich refactoring services]()
           - [Provide rich version control integration]()
           - [Language-specific tooling]()
 

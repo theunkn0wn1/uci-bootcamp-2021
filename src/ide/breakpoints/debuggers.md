@@ -42,7 +42,7 @@ demystify the Jetbrain's PyCharm Debugger.
 The first thing you need to debug a script written in Python, using PyCharm, is a [run configuration]()
 .
 
-For this page, we will be using the [pathlib example](../python/pathlib.md) run config established in
+For this page, we will be using the [pathlib example](../../python/pathlib.md) run config established in
 the [run configurations]() section.
 
 The second thing necessary to using a debugger is to know at what point in the program you want to
@@ -57,7 +57,7 @@ final state of the function before its state falls out of scope.
 To achieve this, we click in the gutter on line 26.
 
 - The area in the code editor window between the code itself is known as the "gutter"
-  ![debugger_breakpoint_set.png](debugger_breakpoint_set.png)
+  ![debugger_breakpoint_set.png](01.png)
 
 Two things are immediately visible as a result of this:
 
@@ -77,7 +77,7 @@ are 5 different run buttons. Five!
 Not to worry, as each one has a specifc job, and the one we want looks like a squashed bug. Second from
 the left. Circled Red.
 
-![debugging_run_under_debugger.png](debugging_run_under_debugger.png)
+![debugging_run_under_debugger.png](02.png)
 
 After being pressed, PyC automatically opens the editor window for the `pathlib_example.py`. You may
 notice there is some extra information rendered over the source file now. It also opens up the debugger
@@ -85,7 +85,7 @@ window and shows some information.
 
 > The debugger window may seem daunting at first, but don't let it intimidate you!
 
-![debuggers_breakpoint_view.png](debuggers_breakpoint_view.png)
+![debuggers_breakpoint_view.png](03.png)
 
 Let's break this down, one view at a time. Starting with the code view:
 
