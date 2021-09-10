@@ -20,16 +20,48 @@ Initially, all of the images sat at the same level as the source `.md` documents
 which are all in the same `src/ide` folder. This proved itself unwieldy, as the file structure is not
 conducive to a viewer's understanding of what documents import which image files.
 
-## Moving files
+## Renaming and moving files
 
 One mode of refactoring is to move files from one directory to another.
 
 > "Why does the IDE need to support this? can't you just move it in the OSes file browser?"
-Well no, because the files are referenced by *other files*. Moving a file without modifying its uses will break those uses. 
+Well no, because the files are referenced by *other files*. Moving a file without modifying its uses will break those uses.
 
-Pycharm supports many forms of refactoring which are valid in different contexts.
-In this specific case, files can be moved via the projects window.
+Pycharm supports many forms of refactoring which are valid in different contexts. In this specific
+case, files can be moved via the projects window.
 
 From the context menu (right-click on the file), select refactor>move
 
-Further reading [Move Refactorings official docs](https://www.jetbrains.com/help/pycharm/move-refactorings.html)
+- PyCharm will automatically update all references to the file to point to the new location.
+
+## Renaming functions in code
+
+Renaming and moving files is one thing, but its hardly impressive. Let's do something a bit more
+involved: renaming a [function!](../../python/functions.md)
+
+Once more we call back to the [Pathlib example](../../python/pathlib.md)
+
+If we recall the source code of this example, we will see there is a function defined here!.
+
+```python
+{{  #include ../../../uci_bootcamp_2021/examples/pathlib_example.py:6:20}}
+```
+
+If we recall from
+the [Call Graphs](../call_graphs/call_graphs.md#getting-a-list-of-everything-that-calls-this-function)
+section, an entirely different module calls this function!
+
+If we were to rename this function *without* refactoring; the test suite will fail.
+
+Fun fact: Pycharm is smart enough to ask you if you want to refactor if you manually edit a function name!
+![img.png](01.png)
+
+Anyways, if we ignored this warning for the sake of demonstration we can observe the [test suite]() failing.
+![img.png](02.png)
+- This demonstrates that renaming things requires a bit more effort than changing the definition.
+
+However, if we used the `refactor | rename` feature, all of the usages will be updated and the tests will pass.
+
+# Further reading:
+
+[Move Refactorings official docs](https://www.jetbrains.com/help/pycharm/move-refactorings.html)
