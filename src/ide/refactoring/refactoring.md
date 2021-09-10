@@ -78,13 +78,15 @@ x = 4 + (16 ** 32 - 4 % 7)
 y = x + (16 ** 32 - 4 % 7)
 z = y + (16 ** 32 - 4 % 7)
 ```
-In this poorly written example, each of the three lines repeats a comparatively expensive operation needlessly.
+
+In this poorly written example, each of the three lines repeats a comparatively expensive operation
+needlessly.
 
 To make this code simpler, we can do one of two things:
 
 1. Manually introduce a variable and update all three lines of code to use that variable
 2. Or we can ask PyCharm to do it for us via the `Refactor | Extract Variable feature.`
-![img.png](03.png)
+   ![img.png](03.png)
 
 ```python
 expensive = (16 ** 32 - 4 % 7)
@@ -92,6 +94,8 @@ x = 4 + expensive
 y = x + expensive
 z = y + expensive
 ```
+
 # Further reading:
 
+There are other refactoring capabilities that IDEs can offer.
 [Move Refactorings official docs](https://www.jetbrains.com/help/pycharm/move-refactorings.html)

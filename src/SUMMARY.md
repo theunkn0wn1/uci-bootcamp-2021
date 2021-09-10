@@ -15,7 +15,7 @@
         - [Integrate with various development tools]()
             - [Run configurations](ide/run_configs/run_configurations.md)
             - [Debuggers](ide/breakpoints/debuggers.md)
-            - [Provide rich version control integration]()
+            - [Provide rich version control integration](ide/vcs/vcs.md)
             - [Language-specific tooling]()
 
 - [Python]()
